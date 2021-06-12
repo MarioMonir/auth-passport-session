@@ -1,18 +1,27 @@
-## How to use this Repo
+# Auth-passport-session
+##### Authentication boilerplate using passport local strategy ( session - local storage ) , mongo session store
+#
+#
+### Features
+- Custom Authentication Protection and user checking 
+- Encryption and hashing for stored data 
 
-This repo has three branches:
 
-* master
-* final
-* final-all-in-one
+### Tech
+- [passport](https://github.com/jaredhanson/passport) Passport is Express-compatible authentication middleware for Node.js.
+- [winston](https://github.com/winstonjs/winston)               - A logger for just about everything.
+- [connect-mongo](https://github.com/jdesboeufs/connect-mongo)  - MongoDB session store for Connect and Express written in Typescript.
+- [bcryptjs](https://github.com/dcodeIO/bcrypt.js) - Optimized bcrypt in JavaScript with zero dependencies. 
 
-The `master` branch has a starter template for creating what is in the `final` branch.  The `final-all-in-one` is a single `app-all.js` file that functions completely alone, while the `final` branch is a refactored version of that.
+## Installation
+make sure you have mongo db 
+```sh
+git clone 
+npm i 
+npm start 
+```
 
-## How to run the app
+## License
+MIT
+Free Software, Enjoy it 
 
-When you go to each branch, the `README.md` will show you how to start the app.
-
-The `master` branch is incomplete and you can follow the written or video tutorials to complete:
-
-* Written - https://zachgoll.github.io/blog/2019/choosing-authentication-strategy/
-* Video - Coming soon
